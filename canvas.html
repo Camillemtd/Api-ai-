@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <link rel="stylesheet" href="index.css"/>
+        <script type="module" src="index.js" crossorigin="anonymous"></script>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <script src="https://kit.fontawesome.com/053006010f.js" crossorigin="anonymous"></script>
+        <script type="module" src="filtre.js" crossorigin="anonymous"></script>
+        <title>FirstCollabProject</title>
+    </head>
+    <body>
+        <header>
+            <img class="logo" src="assets/logo-.png" alt="logo"></i>
+            <a href="gallery.html">Gallery</a>
+        </header>
+        <main>
+            <div class="orga">
+               <h2>Start imaging...</h2>
+                <textarea id="inputImg" placeholder="A cat sleeping on grass..." ></textarea>
+                
+<button class="generator"><i class="fa-solid fa-brush"></i></button>
+                
+            </div>
+            <div class="catalog">
+                <div class="filter">
+                    <h2 class="titleFilter">Mediums</h2>
+                    <div id="Mediums"class="sousFilter" >
+                        <p id="digital" class="buttonCatalogue ">Digital & 3D</p>
+                        <div class="trait_dessus"><hr></div>
+                        <p id="traditional" class="buttonCatalogue">Traditional Art</p>
+                        <div class="trait_dessus"><hr></div> 
+                        <p id="genres" class="buttonCatalogue">Genres and Movements</p>
+                        <div class="trait_dessus"><hr></div>
+                        <p id='otherMediums'class="buttonCatalogue">Other Mediums</p>
+                    </div>
+                </div>
+                <div class="filter">
+                    <h2 class="titleFilter">Artists</h2>
+                    <div id="Artists"class="sousFilter" >
+                        <p id="famousPainters" class="buttonCatalogue">Famous Painters</p>
+                        <div class="trait_dessus"><hr></div>
+                        <p id='comicsAnimeManga' class="buttonCatalogue">Comics, Anime and Manga</p>
+                        <div class="trait_dessus"><hr></div>
+                        <p id="other" class="buttonCatalogue">Other</p>
+                        
+                    </div>
+                </div>
+                <div class="filter">
+                    <h2 class="titleFilter">Photography</h2>
+                    <div id="Photography"class="sousFilter" >
+                        <p class="buttonCatalogue">Format</p>
+                        <div class="trait_dessus"><hr></div>
+                        <p class="buttonCatalogue">Effects & Angles</p>
+                        <div class="trait_dessus"><hr></div>
+                        <p class="buttonCatalogue">Famous Photographers</p>
+                        
+                    </div>
+                </div>
+                <div class="filter">
+                    <h2 class="titleFilter">Modifiers</h2>
+                    <div id="Modifiers"class="sousFilter" >
+                        <p class="buttonCatalogue">Vibes</p>
+                        <div class="trait_dessus"><hr></div>
+                        <p class="buttonCatalogue">Colors</p>
+                        <div class="trait_dessus"><hr></div>
+                        <p class="buttonCatalogue">Weather</p>
+                        
+                    </div>
+                </div>
+                <div class="filter">
+                    <h2 class="titleFilter">Design</h2>
+                    <div id="Design" class="sousFilter" >
+                        <p class="buttonCatalogue">Architecture</p>
+                    </div>
+                </div>
+            </div>
+            <div class="renduCatalog"></div>
+            <div class="loading">
+                <div class="loadingFig">
+                    <div class="line1"></div>
+                    <div class="line2"></div>
+                    <div class="line3"></div>
+                    <img class='imgLoading'src="assets/tableau.png">
+                    <img class='brushLoading'src="assets/pinceau.png">
+                </div>
+            </div>
+            <div class="contenantImg"></div>
+            <div class="test">
+                
+            </div>
+        </main>
+    </body>
+</html>
